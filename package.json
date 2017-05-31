@@ -1,0 +1,15 @@
+{
+  "name": "jstojson",
+  "version": "1.0.0",
+  "description": "Convert a Javascript Object to a JSON Object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "json"
+  ],
+  "author": "Harin Sanghirun",
+  "license": "ISC"
+}
