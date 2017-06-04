@@ -1,6 +1,6 @@
 {
   "name": "jstojson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli tool to convert a object written in the javascript syntax to a valid json syntax",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "javascript",
-    "json"
+    "json",
+    "cli"
   ],
   "bin" : { "jstojson" : "./index.js" },
   "author": "Harin Sanghirun",
