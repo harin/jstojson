@@ -1,7 +1,7 @@
 {
   "name": "jstojson",
   "version": "1.0.0",
-  "description": "Convert a Javascript Object to a JSON Object",
+  "description": "A cli tool to convert a object written in the javascript syntax to a valid json syntax",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
