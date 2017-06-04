@@ -10,8 +10,8 @@ if (filePath == null) {
 try {
   const baseName = path.basename(filePath)
   const content = fs.readFileSync(path.resolve(__dirname, filePath), 'utf8')
-  const js = eval(content)
-  const json = JSON.stringify(js, null, 2)
+  eval(`temp=${content}`)
+  const json = JSON.stringify(temp, null, 2) + '\n'
   const resultName = baseName.replace(/\.js$/, '.json')
   const writePath = filePath.replace(baseName, resultName)
   fs.writeFileSync(writePath, json)
@@ -19,4 +19,3 @@ try {
   console.error('[ERROR] ', err)
   process.exit(1)
 }
-
